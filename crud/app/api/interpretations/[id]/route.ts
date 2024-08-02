@@ -5,7 +5,6 @@ import { NextResponse } from "next/server";
 const database = new Databases(client);
 
 //Fetch a specific interpretation
-
 async function fetchInterpretation(id: string) {
     try {
         const interpretation = await database.getDocument(
@@ -64,7 +63,7 @@ export async function GET(
         return NextResponse.json(
             { error: "Failed to fetch interpretation" },
             { status: 500 }
-        )
+        );
     };
 }
 
@@ -79,7 +78,7 @@ export async function DELETE(
         return NextResponse.json(
             { error: "Failed to delete interpretation" },
             { status: 500 }
-        )
+        );
     };
 }
 
@@ -96,6 +95,6 @@ export async function PUT(
         return NextResponse.json(
             { error: "Failed to update interpretation" },
             { status: 500 }
-        )
+        );
     };
 }

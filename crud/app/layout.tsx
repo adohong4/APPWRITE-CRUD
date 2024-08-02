@@ -23,7 +23,10 @@ export default function RootLayout({
             <Link className="text-2xl font-bold text-white" href={"/"}>
               Tech Interpretation
             </Link>
-            <Link className="bg-slate-100 gird place-items-center py-2 px-4 rounded-full font-bold shadow-md" href={"/create"}>
+            <Link
+              className="bg-slate-100 hover:bg-blue-700 hover:text-white gird place-items-center py-2 px-4 rounded-full font-bold shadow-md"
+              href={"/create"}
+            >
               Add New
             </Link>
           </header>

@@ -65,7 +65,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex gap-4 mt-4 justify-end">
-                  <Link className="bg-slate-200 px-4 py-2 rounded-md uppercase text-sm font-bold tracking-widest"
+                  <Link className="bg-slate-200 hover:bg-black hover:text-white px-4 py-2 rounded-md uppercase text-sm font-bold tracking-widest"
                     href={`/edit/${interpretation.$id}`}>
                     Edit
                   </Link>
