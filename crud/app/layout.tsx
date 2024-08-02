@@ -18,8 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="max-v-3xl mx-auto text-slate-800">
-          <header className="p-6 border-b flex items-center justify-between bg-blue-500 rounded-bl-lg rounded-br-lg">
+        <div className="max-w-3xl mx-auto text-slate-800">
+          <header className="p-6 border-b items-center flex justify-between bg-blue-500 rounded-bl-lg rounded-br-lg">
             <Link className="text-2xl font-bold text-white" href={"/"}>
               Tech Interpretation
             </Link>
